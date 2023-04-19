@@ -30,10 +30,11 @@ const questions = [
         message: 'Include any collaborators, third-party assets that require attribution, or links to tutorials followed.',
     },
     {
-        type: 'options',
+        type: 'choices',
         name: 'license',
         message: 'Select a license.',
-        choices: 
+        default: 'MIT',
+        choices: ['Academic Free License v3.0', 'Apache license 2.0', 'Artistic license 2.0', 'Boost Software License 1.0', 'BSD 2-clause', 'MIT'], 
     },
     {
         type: 'input',
@@ -48,10 +49,19 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile('README.md', data) {}
-
+// function writeToFile('README.md', data) {}
+inquirer.prompt(questions).then((answers) => {
+    const readMeContent = generateReadMe(answers);
+  
+    fs.writeFile('README.md', readMeContent, (err) =>
+      err ? console.log(err) : console.log('Successfully created README.MD!')
+    );
+  });
+  
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+
+}
 
 // Function call to initialize app
 init();
