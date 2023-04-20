@@ -6,7 +6,7 @@ const fs = require('fs');
 const questions = [
     {
         type: 'input',
-        name: 'project name',
+        name: 'title',
         message: 'What is the name of your project?',
     },
     {
