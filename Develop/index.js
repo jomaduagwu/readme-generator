@@ -51,11 +51,11 @@ const questions = [
 
 // TODO: Create a function to write README file
 // function writeToFile('README.md', data) {}
-inquirer.prompt(questions).then((answers) => {
-    const readMeContent = generateReadMe(answers);
+inquirer.prompt(questions).then((data) => {
+    const readMeContent = generateReadMe(data);
   
     fs.writeFile('README.md', readMeContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created README.MD!')
+      err ? console.log(err) : console.log('Successfully created new README.md!')
     );
   });
   
