@@ -39,7 +39,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'Include guidelines for how other develipers can contribute to your project.',
+        message: 'Include guidelines for how other developers can contribute to your project.',
     },
     {
         type: 'input',
