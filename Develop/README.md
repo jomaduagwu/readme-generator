@@ -1,5 +1,11 @@
 
-  # fhsjkahf
+  # testing readme.gen
+  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+
+  ## Description
+  sjfkas lf alkfjlan kjfnl ashl asnkjandlakndlaudjakjdnaljkdnlaj,nla
+
 
   ## Table of Contents
   - [Description](#Description)
@@ -11,26 +17,26 @@
   - [Tests](#Tests)
   - [Credits](#Credits)
 
-  ## Description
-  skljfla
-
   ## Installation
-  sjkfakfj
+  npm init and npm i inquirer after cloning from repo
 
   ## Usage
-  sjkfajf
+  auto create readme files for your projects
 
   ## License
-  MIT
+  This project is licensed under MIT. Please see repo for more details.
 
   ## Contributing
   undefined
 
   ## Features
-  ksafdjsa
+  na
 
   ## Tests 
-  \lkasjf
+  na
 
   ## Credits
-  sklfjalskjf
+  na
+
+  ## Questions
+  If you have any questions about this project, please contact me directly at jmaduagwu@gmail.com. You can also find more of my work at jomaduagwu.

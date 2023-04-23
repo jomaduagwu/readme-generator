@@ -2,10 +2,20 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
-const util = require('util');
+// const util = require('util');
 
 // TODO: Create an array of questions for user input
 const questions = [
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub username?',
+    },
     {
         type: 'input',
         name: 'title',
@@ -47,7 +57,7 @@ const questions = [
         type: 'input',
         name: 'tests',
         message: 'Provide examples of how to run tests for your application.',
-    },
+    }
 ];
 
 // TODO: Create a function to write README file
