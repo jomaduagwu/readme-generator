@@ -1,42 +1,43 @@
 
-  # testing readme.gen
-  ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+  # test
+  ![Github license](https://img.shields.io/badge/license-GNU GPLv3-blue.svg)
 
 
   ## Description
-  sjfkas lf alkfjlan kjfnl ashl asnkjandlakndlaudjakjdnaljkdnlaj,nla
+  test
 
 
   ## Table of Contents
   - [Description](#Description)
   - [Installation](#Installation)
   - [Usage](#Usage)
-  - [License](#License)
   - [Contributing](#Contributing)
   - [Features](#Features)
   - [Tests](#Tests)
   - [Credits](#Credits)
+  - [License](#License)
 
   ## Installation
-  npm init and npm i inquirer after cloning from repo
+  test
 
   ## Usage
-  auto create readme files for your projects
-
-  ## License
-  This project is licensed under MIT. Please see repo for more details.
+  test
 
   ## Contributing
-  undefined
+  test
 
   ## Features
-  na
+  test
 
   ## Tests 
-  na
+  test
 
   ## Credits
-  na
+  test
+
+  ## License
+  This project is licensed under GNU GPLv3. Please see repo for more details.
+
 
   ## Questions
-  If you have any questions about this project, please contact me directly at jmaduagwu@gmail.com. You can also find more of my work at jomaduagwu.
+  If you have any questions about this project, please contact me directly at testt. You can also find more of my work at [@test](github.com/test).

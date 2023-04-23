@@ -14,7 +14,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub username?',
+        message: 'What is your GitHub username (no @ required)?',
     },
     {
         type: 'input',
@@ -38,6 +38,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'contributing',
+        message: 'Include guidelines for how other develipers can contribute to your project.',
+    },
+    {
+        type: 'input',
         name: 'credits',
         message: 'Include any collaborators, third-party assets that require attribution, or links to tutorials followed.',
     },
@@ -46,7 +51,7 @@ const questions = [
         name: 'license',
         message: 'What license would you like to include?',
         default: 'MIT',
-        choices: ['Academic Free License 3.0', 'Apache License 2.0', 'GNU GPLv3', 'MIT', 'Mozilla'], 
+        choices: ['Apache License 2.0', 'GNU GPLv3', 'IBM', 'MIT', 'Mozilla'], 
     },
     {
         type: 'input',

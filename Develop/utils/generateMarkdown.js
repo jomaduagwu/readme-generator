@@ -2,16 +2,16 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   switch (license) {
-    case "Academic Free License 3.0":
-      return "[![License](https://img.shields.io/badge/License-Academic_Free_License_3.0-blue.svg)](https://opensource.org/license/afl-3-0-php/)";
     case "Apache License 2.0":
-      return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/license/Apache-2.0)";
-      case "GNU GPLv3":
-        return "[![License: GNU GPLv3](https://img.shields.io/badge/License-GNU_GLPv3-yellow.svg)](https://opensource.org/license/gpl-3-0/)";  
-        case "Mozilla":
-          return "[![License: Mozilla](https://img.shields.io/badge/License-Mozilla-yellow.svg)](https://opensource.org/license/mpl-2-0/)";    
-        case "MIT":
-      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/license/MIT)";
+      return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    case "GNU GPLv3":
+      return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://gnu.org/license/gpl-3-0/)";  
+    case "IBM":
+      return "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/license/IPL-1.0)"; 
+    case "Mozilla":
+      return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2-0)";    
+    case "MIT":
+      return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
     default:
       return "";
     }
@@ -71,20 +71,17 @@ function generateMarkdown(data) {
   - [Description](#Description)
   - [Installation](#Installation)
   - [Usage](#Usage)
-  - [License](#License)
   - [Contributing](#Contributing)
   - [Features](#Features)
   - [Tests](#Tests)
   - [Credits](#Credits)
+  - [License](#License)
 
   ## Installation
   ${data.installation}
 
   ## Usage
   ${data.usage}
-
-  ## License
-  This project is licensed under ${data.license}. Please see repo for more details.
 
   ## Contributing
   ${data.contributing}
@@ -98,8 +95,12 @@ function generateMarkdown(data) {
   ## Credits
   ${data.credits}
 
+  ## License
+  This project is licensed under ${data.license}. Please see repo for more details.
+
+
   ## Questions
-  If you have any questions about this project, please contact me directly at ${data.email}. You can also find more of my work at ${data.github}.
+  If you have any questions about this project, please contact me directly at ${data.email}. You can also find more of my work at [@${data.github}](github.com/${data.github}).
 `;
 }
 
