@@ -77,7 +77,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then((data) => {
         const readMeContent = generateMarkdown(data);
-        writeToFile('README.md', readMeContent);
+        writeToFile('ExampleREADME.md', readMeContent);
     });
 }
 // Function call to initialize app
