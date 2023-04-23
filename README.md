@@ -2,8 +2,10 @@
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
+
 ## Description
   This application was created to quickly and easily generate a professional README.md file, based on a series of questions a user answers in the command line using the inquirer package. This would allow a project creator to devote more time to work on their project.
+
 
 ## Table of Contents
   - [Installation](#installation)
@@ -17,7 +19,13 @@
   ## Installation
   Clone the respository from the repo in GitHub. Make sure you install Node.js and NPM on your computer. You will need to install the node package manager (NPM) using `npm init` and then the inquirer module using `npm i inquirer`.
 
+
   ## Usage
+  You can find the walkthrough video here - [README generator walkthrough video](https://drive.google.com/file/d/18hJN2uiokKLBllCWus-VPyqrudqWfqmi/view?usp=sharing)
+
+  ![ReadMe Generator video](./assets/ReadMe-Generator-Video.gif)
+
+
   Run ```node index.js``` in the command line and answer the questions about your project. After all the prompts are answered, a new "README.md" will be created in the current working directory.
 
 
@@ -35,23 +43,20 @@
 8. Contributing - if you would like other developers to contribute to your project, include the guidelines for how to do so here.
 9. Tests - if you have any tests for your application, provide examples of how to run them here.
 
-  ```md
-  [![ReadMe Generator video](https://drive.google.com/file/d/1ZW0ZCcGds06rNRZsepZe6IlcrnLvNJB2/view?usp=sharing/)](https://drive.google.com/file/d/1ZW0ZCcGds06rNRZsepZe6IlcrnLvNJB2/preview)
-  ```
-[![ReadMe Generator video](https://drive.google.com/uc?export=download&id=1ZW0ZCcGds06rNRZsepZe6IlcrnLvNJB2)](https://drive.google.com/file/d/1ZW0ZCcGds06rNRZsepZe6IlcrnLvNJB2/preview)
 
 
 ## Credits
-  The starter code was cloned from - [The Coding Bootcamp](https://github.com/coding-boot-camp/potential-enigma.git)
+The starter code was cloned from - [The Coding Bootcamp](https://github.com/coding-boot-camp/potential-enigma.git)
   
 
-  ## Features
- N/A
+## Features
+N/A
 
-  ## Tests 
- N/A
+
+## Tests 
+N/A
 
 
 ## License
-  The project is licensed under MIT. For more information, please refer to the LICENSE in the repo.
+The project is licensed under MIT. For more information, please refer to the LICENSE in the repo.
   
